@@ -2,12 +2,10 @@ inorganic_metal
 
 [OBJECT:INORGANIC]
 
-Dwarfoloid picked out a lot of the material numbers here to replace my placeholders.
-Colors added by Bohandas.
-
 [INORGANIC:IRON]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:fer]
+	[STATE_NAME:ALL_SOLID:fer]
+	[STATE_ADJ:ALL_SOLID:de fer]
 	[STATE_NAME_ADJ:LIQUID:fer fondu]
 	[STATE_NAME_ADJ:GAS:fer en ebullition]
 	[DISPLAY_COLOR:0:7:1]
@@ -47,9 +45,9 @@ Colors added by Bohandas.
 
 [INORGANIC:GOLD]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME:SOLID:or]
+	[STATE_NAME:SOLID:'orr]
 	[STATE_NAME:SOLID_POWDER:or poudreux]
-	[STATE_ADJ:ALL_SOLID:aurifère]
+	[STATE_ADJ:ALL_SOLID:aurif├¿re]
 	[STATE_NAME_ADJ:LIQUID:or fondu]
 	[STATE_NAME_ADJ:GAS:or en ebullition]
 	[DISPLAY_COLOR:6:6:1]
@@ -88,7 +86,8 @@ Colors added by Bohandas.
 
 [INORGANIC:SILVER]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:argent]
+	[STATE_NAME:ALL_SOLID:argent]
+	[STATE_ADJ:ALL_SOLID:d'argent]
 	[STATE_NAME_ADJ:LIQUID:argent fondu]
 	[STATE_NAME_ADJ:GAS:argent en ebullition]
 	[DISPLAY_COLOR:7:7:1]
@@ -128,7 +127,8 @@ Colors added by Bohandas.
 
 [INORGANIC:COPPER]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:cuivre]
+	[STATE_NAME:ALL_SOLID:cuivre]
+	[STATE_ADJ:ALL_SOLID:de cuivre]
 	[STATE_NAME_ADJ:LIQUID:cuivre fondu]
 	[STATE_NAME_ADJ:GAS:cuivre en ebullition]
 	[DISPLAY_COLOR:6:4:0]
@@ -168,7 +168,8 @@ Colors added by Bohandas.
 
 [INORGANIC:NICKEL]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:nickel]
+	[STATE_NAME:ALL_SOLID:nickel]
+	[STATE_ADJ:ALL_SOLID:ni fonduckel]
 	[STATE_NAME_ADJ:LIQUID:nickel fondu]
 	[STATE_NAME_ADJ:GAS:nickel en ebullition]
 	[DISPLAY_COLOR:7:3:0]
@@ -207,7 +208,8 @@ Colors added by Bohandas.
 
 [INORGANIC:ZINC]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:zinc]
+	[STATE_NAME:ALL_SOLID:zinc]
+	[STATE_ADJ:ALL_SOLID:z fonduinc]
 	[STATE_NAME_ADJ:LIQUID:zinc fondu]
 	[STATE_NAME_ADJ:GAS:zinc en ebullition]
 	[DISPLAY_COLOR:7:3:0]
@@ -246,7 +248,8 @@ Colors added by Bohandas.
 
 [INORGANIC:BRONZE]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:bronze]
+	[STATE_NAME:ALL_SOLID:bronze]
+	[STATE_ADJ:ALL_SOLID: fro bouillantnze]
 	[STATE_NAME_ADJ:LIQUID:bronze fondu]
 	[STATE_NAME_ADJ:GAS:bronze en ebullition]
 	[DISPLAY_COLOR:6:4:0]
@@ -286,7 +289,8 @@ Colors added by Bohandas.
 
 [INORGANIC:BRASS]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:laiton]
+	[STATE_NAME:ALL_SOLID:laiton]
+	[STATE_ADJ:ALL_SOLID:de laiton]
 	[STATE_NAME_ADJ:LIQUID:laiton fondu]
 	[STATE_NAME_ADJ:GAS:laiton en ebullition]
 	[DISPLAY_COLOR:6:6:1]
@@ -325,7 +329,8 @@ Colors added by Bohandas.
 
 [INORGANIC:STEEL]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:acier]
+	[STATE_ADJ:ALL_SOLID:d'acier]
+	[STATE_NAME:ALL_SOLID:acier]
 	[STATE_NAME_ADJ:LIQUID:acier fondu]
 	[STATE_NAME_ADJ:GAS:acier en ebullition]
 	[DISPLAY_COLOR:0:7:1]
@@ -365,8 +370,9 @@ Colors added by Bohandas.
 
 [INORGANIC:PIG_IRON]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:fonte]
-	[STATE_NAME_ADJ:LIQUID:fonte fondu]
+	[STATE_NAME:ALL_SOLID:fonte]
+	[STATE_ADJ:ALL_SOLID:de fonte]
+	[STATE_NAME_ADJ:LIQUID:fonte fondue]
 	[STATE_NAME_ADJ:GAS:fonte en ebullition]
 	[DISPLAY_COLOR:0:7:1]
 	[BUILD_COLOR:0:7:1]
@@ -400,7 +406,8 @@ Colors added by Bohandas.
 
 [INORGANIC:PLATINUM]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:platine]
+	[STATE_NAME:ALL_SOLID:platine]
+	[STATE_ADJ:ALL_SOLID:platine fondu]
 	[STATE_NAME_ADJ:LIQUID:platine fondu]
 	[STATE_NAME_ADJ:GAS:platine en ebullition]
 	[DISPLAY_COLOR:7:7:1]
@@ -439,9 +446,10 @@ Colors added by Bohandas.
 
 [INORGANIC:ELECTRUM]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:electrum]
+	[STATE_NAME:ALL_SOLID:electrum]
+	[STATE_ADJ:ALL_SOLID:electrum fondu]
 	[STATE_NAME_ADJ:LIQUID:electrum fondu]
-	[STATE_NAME_ADJ:GAS:electrum en ebullition]
+	[STATE_NAME_ADJ:GAS:electrum en ebullition bouillant]
 	[DISPLAY_COLOR:6:6:1]
 	[BUILD_COLOR:6:6:1]
 	[MATERIAL_VALUE:20]
@@ -481,7 +489,8 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 
 [INORGANIC:TIN]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:etain]
+	[STATE_ADJ:ALL_SOLID:etain]
+	[STATE_ADJ:ALL_SOLID:etain fondu]
 	[STATE_NAME_ADJ:LIQUID:etain fondu]
 	[STATE_NAME_ADJ:GAS:etain en ebullition]
 	[DISPLAY_COLOR:7:3:0]
@@ -519,7 +528,10 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 	[STATE_COLOR:ALL_SOLID:SILVER]
 
 [INORGANIC:PEWTER_FINE]
-	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE:ALL_SOLID:plomb-etain rafine]
+	[STATE_ADJ:ALL_SOLID:de plomb-etain rafine]
+	[STATE_NAME_ADJ:LIQUID:plomb-etain rafine fondu]
+	[STATE_NAME_ADJ:GAS:plomb-etain rafine bouillant]
 	[STATE_NAME_ADJ:ALL_SOLID:airain(riche)]
 	[STATE_NAME_ADJ:LIQUID:airain(riche) fondu]
 	[STATE_NAME_ADJ:GAS:airain(riche) en ebullition]
@@ -558,7 +570,10 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 	[STATE_COLOR:ALL_SOLID:SILVER]
 
 [INORGANIC:PEWTER_TRIFLE]
-	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE:ALL_SOLID:plomb-etain moyen]
+	[STATE_ADJ:ALL_SOLID:de plomb-etain moyen]
+	[STATE_NAME_ADJ:LIQUID:plomb-etain moyen fondu]
+	[STATE_NAME_ADJ:GAS:plomb-etain moyen bouillant]
 	[STATE_NAME_ADJ:ALL_SOLID:airain(moyen)]
 	[STATE_NAME_ADJ:LIQUID:airain(moyen) fondu]
 	[STATE_NAME_ADJ:GAS:airain(moyen) en ebullition]
@@ -597,7 +612,10 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 	[STATE_COLOR:ALL_SOLID:TAUPE_GRAY]
 
 [INORGANIC:PEWTER_LAY]
-	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE:ALL_SOLID:plomb-etain pauvre]
+	[STATE_ADJ:ALL_SOLID:de plomb-etain pauvre]
+	[STATE_NAME_ADJ:LIQUID:plomb-etain pauvre fondu]
+	[STATE_NAME_ADJ:GAS:plomb-etain pauvre bouillant]
 	[STATE_NAME_ADJ:ALL_SOLID:airain(pauvre)]
 	[STATE_NAME_ADJ:LIQUID:airain(pauvre) fondu]
 	[STATE_NAME_ADJ:GAS:airain(pauvre) en ebullition]
@@ -637,8 +655,9 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 
 [INORGANIC:LEAD]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:plomb]
-	[STATE_NAME_ADJ:LIQUID:plomb fondu]
+	[STATE_NAME:ALL_SOLID:plomb]
+	[STATE_ADJ:ALL_SOLID:poe plombmb]
+	[STATE_NAME_ADJ:LIQUID:ploplomb fondu]
 	[STATE_NAME_ADJ:GAS:plomb en ebullition]
 	[DISPLAY_COLOR:0:7:1]
 	[BUILD_COLOR:0:7:1]
@@ -676,9 +695,10 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 
 [INORGANIC:ALUMINUM]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:aluminum]
-	[STATE_NAME_ADJ:LIQUID:molten aluminum fondu]
-	[STATE_NAME_ADJ:GAS:boiling aluminum en ebullition]
+	[STATE_NAME:ALL_SOLID:aluminum]
+	[STATE_ADJ:ALL_SOLID:d'aluminum]
+	[STATE_NAME_ADJ:LIQUID:aluminum fondu fondu]
+	[STATE_NAME_ADJ:GAS:aluminum en ebullition bouillant]
 	[DISPLAY_COLOR:7:7:1]
 	[BUILD_COLOR:7:7:1]
 	[MATERIAL_VALUE:40]
@@ -711,12 +731,12 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:WHITE]
+	[STATE_COLOR:ALL_SOLID:WHITE] temperature values unknown, used nickel
 
-temperature values unknown, used nickel
 [INORGANIC:NICKEL_SILVER]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:maillechort]
+	[STATE_NAME:ALL_SOLID:maillechort]
+	[STATE_ADJ:ALL_SOLID:de maillechort]
 	[STATE_NAME_ADJ:LIQUID:maillechort fondu]
 	[STATE_NAME_ADJ:GAS:maillechort en ebullition]
 	[DISPLAY_COLOR:7:7:1]
@@ -751,12 +771,12 @@ temperature values unknown, used nickel
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:SILVER]
+	[STATE_COLOR:ALL_SOLID:SILVER] temperature values unknown, used copper
 
-temperature values unknown, used copper
 [INORGANIC:BILLON]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:billon]
+	[STATE_NAME:ALL_SOLID:billon]
+	[STATE_ADJ:ALL_SOLID:bi fondullon]
 	[STATE_NAME_ADJ:LIQUID:billon fondu]
 	[STATE_NAME_ADJ:GAS:billon en ebullition]
 	[DISPLAY_COLOR:7:3:0]
@@ -791,15 +811,15 @@ temperature values unknown, used copper
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:PALE_BROWN]
-
-temperature values unknown, used silver
+	[STATE_COLOR:ALL_SOLID:PALE_BROWN] temperature values unknown, used silver
 value is weighted average of 3 silver and 1 copper
+
 [INORGANIC:STERLING_SILVER]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:argent sterling]
-	[STATE_NAME_ADJ:LIQUID:argent sterling fondu]
-	[STATE_NAME_ADJ:GAS:argent sterling en ebullition]
+	[STATE_NAME:ALL_SOLID:argent fin]
+	[STATE_ADJ:ALL_SOLID:d'argent fin]
+	[STATE_NAME_ADJ:LIQUID:argent fin fondu]
+	[STATE_NAME_ADJ:GAS:argent fin bouillantn ebullition]
 	[DISPLAY_COLOR:7:7:1]
 	[BUILD_COLOR:7:7:1]
 	[MATERIAL_VALUE:8]
@@ -832,16 +852,16 @@ value is weighted average of 3 silver and 1 copper
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:WHITE]
-
-temperature values unknown, used copper
+	[STATE_COLOR:ALL_SOLID:WHITE] temperature values unknown, used copper
 also called shakudo or hepatizon depending on the proportions (some have no silver)
 	got the name from black corinthian bronze, though these proportions are more like regular corinthian bronze/brass
 		I just wanted the liver-colored one, dropped "corinthian" because it sounds too location/culture specific
 value of 11 is the weighted average value of 2copper/1silver/1gold components
+
 [INORGANIC:BLACK_BRONZE]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:bronze noir]
+	[STATE_NAME:ALL_SOLID:bronze noir]
+	[STATE_ADJ:ALL_SOLID:deb noirronze noir]
 	[STATE_NAME_ADJ:LIQUID:bronze noir fondu]
 	[STATE_NAME_ADJ:GAS:bronze noir en ebullition]
 	[DISPLAY_COLOR:5:6:0]
@@ -880,10 +900,12 @@ value of 11 is the weighted average value of 2copper/1silver/1gold components
 
 temperature values unknown, used gold
 value is weighted average of 3 gold and 1 copper
+
 [INORGANIC:ROSE_GOLD]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:or rose]
-	[STATE_NAME_ADJ:LIQUID:or rose fondu]
+	[STATE_NAME:ALL_SOLID:or blanc]
+	[STATE_ADJ:ALL_SOLID:or ]'or blanc
+	[STATE_NAME_ADJ:LIQUID:or blanc fondu]
 	[STATE_NAME_ADJ:GAS:or rose en ebullition]
 	[DISPLAY_COLOR:5:5:1]
 	[BUILD_COLOR:5:5:1]
@@ -917,12 +939,12 @@ value is weighted average of 3 gold and 1 copper
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:PINK]
+	[STATE_COLOR:ALL_SOLID:PINK] bismuth itself is brittle, but you can alloy it with tin/copper to make a light-colored bronze
 
-bismuth itself is brittle, but you can alloy it with tin/copper to make a light-colored bronze
 [INORGANIC:BISMUTH]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:bismuth]
+	[STATE_NAME:ALL_SOLID:bismuth]
+	[STATE_ADJ:ALL_SOLID:bis fondumuth]
 	[STATE_NAME_ADJ:LIQUID:bismuth fondu]
 	[STATE_NAME_ADJ:GAS:bismuth en ebullition]
 	[DISPLAY_COLOR:5:5:1]
@@ -953,12 +975,12 @@ bismuth itself is brittle, but you can alloy it with tin/copper to make a light-
 	[BENDING_FRACTURE:50000]
 	[BENDING_STRAIN_AT_YIELD:94]
 	[MAX_EDGE:10000]
-	[STATE_COLOR:ALL_SOLID:HELIOTROPE]
+	[STATE_COLOR:ALL_SOLID:HELIOTROPE] you can make a lighter colored bronze by adding bismuth, used temp values from bronze, used by incas, at least according to one source ha ha
 
-you can make a lighter colored bronze by adding bismuth, used temp values from bronze, used by incas, at least according to one source ha ha
 [INORGANIC:BISMUTH_BRONZE]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:bismuth bronze]
+	[STATE_NAME:ALL_SOLID:bismuth bronze bouillant]
+	[STATE_ADJ:ALL_SOLID:de bismuth bronze fondu]
 	[STATE_NAME_ADJ:LIQUID:bismuth bronze fondu]
 	[STATE_NAME_ADJ:GAS:bismuth bronze en ebullition]
 	[DISPLAY_COLOR:6:6:1]
@@ -998,7 +1020,8 @@ you can make a lighter colored bronze by adding bismuth, used temp values from b
 
 [INORGANIC:ADAMANTINE]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:adamantium]
+	[STATE_NAME:ALL_SOLID:adamantium]
+	[STATE_ADJ:ALL_SOLID:adamantium fondu]
 	[STATE_NAME_ADJ:LIQUID:adamantium fondu]
 	[STATE_NAME_ADJ:GAS:adamantium en ebullition]
 	[DISPLAY_COLOR:3:3:1]
@@ -1039,3 +1062,4 @@ you can make a lighter colored bronze by adding bismuth, used temp values from b
 	[DEEP_SPECIAL]
 	[STOCKPILE_THREAD_METAL]
 	[STATE_COLOR:ALL_SOLID:AQUA]
+

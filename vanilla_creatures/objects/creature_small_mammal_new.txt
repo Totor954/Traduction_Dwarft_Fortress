@@ -2,10 +2,6 @@ creature_small_mammal_new
 
 [OBJECT:CREATURE]
 
-Hamsters were sponsored by the generous contributions of the Bay 12 community.
-
-	Nominated by UnFleshedOne, patron of hamsters. Come Megabeast, lil critter!
-
 [CREATURE:HAMSTER]
 	[DESCRIPTION:A tiny rodent that burrows by day and scurries about at night.]
 	[NAME:hamster:hamsters:hamster]
@@ -148,10 +144,11 @@ Hedgehogs were sponsored by the generous contributions of the Bay 12 community.
 
 	Hedgehog: Closest thing to a zefie in Vanilla DF. -Sponsored by Strife
 
+
 [CREATURE:HEDGEHOG]
-	[DESCRIPTION:A small round mammal whose back is covered in spines.  It is nocturnal and feeds on insects.  It curls into a ball when startled and is found in temperate regions.]
-	[NAME:hedgehog:hedgehogs:hedgehog]
-	[CASTE_NAME:hedgehog:hedgehogs:hedgehog]
+	[DESCRIPTION:Un petit mamifere rond au dos recouvert d'epines. Il est nocturne et se nourris d'insectes. Effraye, il se replis en boule, Il vit dans les regions temperees.]
+	[NAME:herisson:herissons:d'herisson]
+	[CASTE_NAME:herisson:herissons:d'herisson]
 	[CREATURE_TILE:249][COLOR:6:0:0]
 	[CREATURE_CLASS:MAMMAL]
 	[PETVALUE:10]
@@ -163,7 +160,7 @@ Hedgehogs were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:250:500]
 	[GOBBLE_VERMIN_CLASS:EDIBLE_GROUND_BUG]
 	[VISION_ARC:50:310]
-	[PREFSTRING:many spines]
+	[PREFSTRING:beaucoup d'epines]
 	[BODY:QUADRUPED_NECK:TAIL:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES_FQ_REG:5TOES_RQ_REG:MOUTH:TONGUE:RODENT_TEETH:RIBCAGE]
 	[BODYGLOSS:PAW]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
@@ -204,7 +201,7 @@ Hedgehogs were sponsored by the generous contributions of the Bay 12 community.
 	[MAXAGE:2:3]
 	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
 		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
+		[ATTACK_VERB:mordez:mord]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -213,7 +210,7 @@ Hedgehogs were sponsored by the generous contributions of the Bay 12 community.
 		[ATTACK_FLAG_CANLATCH]
 	[ATTACK:SCRATCH:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:STANCE:BY_CATEGORY:ALL:NAIL]
 		[ATTACK_SKILL:GRASP_STRIKE]
-		[ATTACK_VERB:scratch:scratches]
+		[ATTACK_VERB:griffez:griffe]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -297,6 +294,7 @@ Hedgehogs were sponsored by the generous contributions of the Bay 12 community.
 Flying squirrels were sponsored by the generous contributions of the Bay 12 community.
 
 	Till
+
 
 [CREATURE:SQUIRREL_FLYING]
 	[DESCRIPTION:A tiny grey rodent that is only active at night.  It can sail between trees on wings stretching between its front and hind legs.]
@@ -439,3 +437,5 @@ Flying squirrels were sponsored by the generous contributions of the Bay 12 comm
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+
+

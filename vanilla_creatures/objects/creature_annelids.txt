@@ -3,9 +3,9 @@ creature_annelids
 [OBJECT:CREATURE]
 
 [CREATURE:WORM]
-	[DESCRIPTION:A tiny burrowing creature, found in moist soil.  It is legless, long and thin.]
-	[NAME:worm:worms:worm]
-	[CASTE_NAME:worm:worms:worm]
+	[DESCRIPTION:Une creature fouisseuse minuscule, ont peut le trouver dans un sol humide. Il est sans jambe, long et mince.]
+	[NAME:ver:vers:ver]
+	[CASTE_NAME:ver:vers:ver]
 	[CREATURE_TILE:'~'][COLOR:7:0:0]
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
@@ -16,7 +16,7 @@ creature_annelids
 	[BIOME:ANY_TEMPERATE]
 	[BIOME:ANY_TROPICAL]
 	[POPULATION_NUMBER:250:500]
-	[PREFSTRING:wriggling]
+	[PREFSTRING:tortillement]
 	[BODY:BODY_WITH_HEAD_FLAG:HEART:GUTS:BRAIN:MOUTH]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
 		[REMOVE_MATERIAL:HAIR]
@@ -45,7 +45,7 @@ creature_annelids
 	[NO_DIZZINESS]
 	[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 		[TL_COLOR_MODIFIER:GRAY:1]
-			[TLCM_NOUN:skin:SINGULAR]
+			[TLCM_NOUN:peau:SINGULAR]
 
 [CREATURE:WORM_MAN]
 	[COPY_TAGS_FROM:WORM]
@@ -65,3 +65,4 @@ creature_annelids
 	[CREATURE_TILE:'w']
 	[COLOR:7:0:0]
 	[EXTRAVISION]
+

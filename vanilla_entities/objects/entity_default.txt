@@ -444,9 +444,9 @@ entity_default
 		[REQUIRED_DINING:100]
 		[MILITARY_SCREEN_ONLY]
 	[POSITION:CAPTAIN]
-		[NAME:captain:captains]
+		[NAME:chef d'captain:captains]
 		[NUMBER:AS_NEEDED]
-		[SQUAD:10:soldier:soldiers]
+		[SQUAD:10:soldier:so]
 		[APPOINTED_BY:GENERAL]
 		[PRECEDENCE:190]
 		[DO_NOT_CULL]
@@ -2010,3 +2010,4 @@ entity_default
 	[AMBUSHER]
 	[STONE_SHAPE:OVAL_CABOCHON]
 	[GEM_SHAPE:OVAL_CABOCHON]
+

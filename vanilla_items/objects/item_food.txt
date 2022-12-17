@@ -7,9 +7,10 @@ item_food
 [LEVEL:2]
 
 [ITEM_FOOD:ITEM_FOOD_STEW]
-[NAME:stew]
+[NAME:ragout]
 [LEVEL:3]
 
 [ITEM_FOOD:ITEM_FOOD_ROAST]
-[NAME:roast]
+[NAME:roti]
 [LEVEL:4]
+

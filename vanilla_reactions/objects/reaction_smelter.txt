@@ -3,7 +3,7 @@ reaction_smelter
 [OBJECT:REACTION]
 
 [REACTION:BITUMINOUS_COAL_TO_COKE]
-[NAME:make coke from bituminous coal]
+[NAME:rafiner du charbon bitumeux]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:BOULDER:NO_SUBTYPE:INORGANIC:COAL_BITUMINOUS]
 [PRODUCT:100:9:BAR:NO_SUBTYPE:COAL:COKE][PRODUCT_DIMENSION:150]
@@ -11,7 +11,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:LIGNITE_TO_COKE]
-[NAME:make coke from lignite]
+[NAME:rafiner du lignite]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:BOULDER:NO_SUBTYPE:INORGANIC:LIGNITE]
 [PRODUCT:100:5:BAR:NO_SUBTYPE:COAL:COKE][PRODUCT_DIMENSION:150]
@@ -19,7 +19,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BRASS_MAKING]
-[NAME:make brass bars (use ore)]
+[NAME:faire une barre de laiton (avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:METAL_ORE:ZINC]
 [REAGENT:B:1:METAL_ORE:COPPER]
@@ -28,7 +28,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BRASS_MAKING2]
-[NAME:make brass bars (use bars)]
+[NAME:faire une barre de laiton(avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:ZINC]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -37,7 +37,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BRONZE_MAKING]
-[NAME:make bronze bars (use ore)]
+[NAME:faire une barre de bronze (avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:METAL_ORE:TIN]
 [REAGENT:B:1:METAL_ORE:COPPER]
@@ -46,7 +46,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BRONZE_MAKING2]
-[NAME:make bronze bars (use bars)]
+[NAME:faire une barre de bronze (avec metaux)]]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:TIN]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -55,7 +55,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:ELECTRUM_MAKING]
-[NAME:make electrum bars (use ore)]
+[NAME:faire une barre d'electrum(avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:METAL_ORE:SILVER]
 [REAGENT:B:1:METAL_ORE:GOLD]
@@ -64,7 +64,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:ELECTRUM_MAKING2]
-[NAME:make electrum bars (use bars)]
+[NAME:faire une barre d'electrum (avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:SILVER]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:GOLD]
@@ -73,7 +73,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BILLON_MAKING]
-[NAME:make billon bars (use ore)]
+[NAME:faire une bare de billon (avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:1:METAL_ORE:SILVER]
 [REAGENT:B:1:METAL_ORE:COPPER]
@@ -82,7 +82,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BILLON_MAKING2]
-[NAME:make billon bars (use bars)]
+[NAME:faire une barre de billon (avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:SILVER]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -91,7 +91,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PEWTER_FINE_MAKING]
-[NAME:make fine pewter bars (use ore)]
+[NAME:faire une barre de plomb-etain rafine (avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:3:METAL_ORE:TIN]
 [REAGENT:B:1:METAL_ORE:COPPER]
@@ -100,7 +100,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PEWTER_FINE_MAKING2]
-[NAME:make fine pewter bars (use bars)]
+[NAME:faire une barre de plomb-etain rafine (avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:450:BAR:NO_SUBTYPE:METAL:TIN]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -109,7 +109,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PEWTER_TRIFLE_MAKING]
-[NAME:make trifle pewter bars (use ore)]
+[NAME:faire une barre de plomb-etain moyen (avec minerais)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:2:METAL_ORE:TIN]
 [REAGENT:B:1:METAL_ORE:COPPER]
@@ -118,7 +118,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PEWTER_TRIFLE_MAKING2]
-[NAME:make trifle pewter bars (use bars)]
+[NAME:faire une barre de plomb-etain moyen (avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:300:BAR:NO_SUBTYPE:METAL:TIN]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -127,7 +127,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PEWTER_LAY_MAKING]
-[NAME:make lay pewter bars (use bars)]
+[NAME:faire une barre de plomb-etain pauvre (avec metaux)]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:300:BAR:NO_SUBTYPE:METAL:TIN]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -137,7 +137,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:PIG_IRON_MAKING]
-[NAME:make pig iron bars]
+[NAME:faire une barre de fonte]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]
 [REAGENT:B:1:BOULDER:NO_SUBTYPE:NONE:NONE][REACTION_CLASS:FLUX]
@@ -147,7 +147,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:STEEL_MAKING]
-[NAME:make steel bars]
+[NAME:faire une barre d'acier]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:PIG_IRON]
@@ -158,7 +158,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:NICKEL_SILVER_MAKING]
-[NAME:make nickel silver bars]
+[NAME:faire une barre de maillechort]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:300:BAR:NO_SUBTYPE:METAL:NICKEL]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -168,7 +168,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BLACK_BRONZE_MAKING]
-[NAME:make black bronze bars]
+[NAME:faire une barre de bronze noir]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:300:BAR:NO_SUBTYPE:METAL:COPPER]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:SILVER]
@@ -178,7 +178,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:STERLING_SILVER_MAKING]
-[NAME:make sterling silver bars]
+[NAME:faire une barre d'argent fin]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:450:BAR:NO_SUBTYPE:METAL:SILVER]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -187,7 +187,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:ROSE_GOLD_MAKING]
-[NAME:make rose gold bars]
+[NAME:faire une barre d'or blanc]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:450:BAR:NO_SUBTYPE:METAL:GOLD]
 [REAGENT:B:150:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -196,7 +196,7 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:BISMUTH_BRONZE_MAKING]
-[NAME:make bismuth bronze bars]
+[NAME:faire une barre de bismuth bronze]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:150:BAR:NO_SUBTYPE:METAL:TIN]
 [REAGENT:B:300:BAR:NO_SUBTYPE:METAL:COPPER]
@@ -206,9 +206,10 @@ reaction_smelter
 [SKILL:SMELT]
 
 [REACTION:ADAMANTINE_WAFERS]
-[NAME:make adamantine wafers]
+[NAME:faire une plaque d'adamantium]
 [BUILDING:SMELTER:NONE]
 [REAGENT:A:15000:THREAD:NO_SUBTYPE:METAL:ADAMANTINE]
 [PRODUCT:100:1:BAR:NO_SUBTYPE:METAL:ADAMANTINE][PRODUCT_DIMENSION:150]
 [FUEL]
 [SKILL:SMELT]
+

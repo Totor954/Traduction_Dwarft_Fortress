@@ -3,8 +3,8 @@ item_pants
 [OBJECT:ITEM]
 
 [ITEM_PANTS:ITEM_PANTS_PANTS]
-[PREPLURAL:pairs of]
-[NAME:trousers:trousers]
+[PREPLURAL:paire de]
+[NAME:pantalon:pentalons]
 [LBSTEP:MAX]
 [LAYER:OVER]
 [COVERAGE:100]
@@ -17,7 +17,7 @@ item_pants
 
 [ITEM_PANTS:ITEM_PANTS_GREAVES]
 	this item doesn't make much sense right now, but there aren't any item types you can tie on to your legs yet
-[NAME:greaves:greaves]
+[NAME:greve:greves]
 [ARMORLEVEL:3]
 [LBSTEP:MAX]
 [SHAPED]
@@ -31,7 +31,7 @@ item_pants
 [HARD]
 
 [ITEM_PANTS:ITEM_PANTS_LEGGINGS]
-[NAME:leggings:leggings]
+[NAME:jambiere:jambieres]
 [CHAIN_METAL_TEXT]
 [ARMORLEVEL:1]
 [METAL_ARMOR_LEVELS]
@@ -49,7 +49,7 @@ item_pants
 [STRUCTURAL_ELASTICITY_CHAIN_METAL]
 
 [ITEM_PANTS:ITEM_PANTS_LOINCLOTH]
-[NAME:loincloth:loincloths]
+[NAME:pagne:pagnes]
 [LAYER:UNDER]
 [COVERAGE:50]
 [LAYER_SIZE:10]
@@ -60,7 +60,7 @@ item_pants
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_THONG]
-[NAME:thong:thongs]
+[NAME:laniere:laniere]
 [LAYER:UNDER]
 [COVERAGE:25]
 [LAYER_SIZE:10]
@@ -71,7 +71,7 @@ item_pants
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT]
-[NAME:skirt:skirts]
+[NAME:jupe:jupes]
 [LBSTEP:1]
 [LAYER:OVER]
 [COVERAGE:100]
@@ -83,7 +83,7 @@ item_pants
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT_SHORT]
-[NAME:skirt:skirts]
+[NAME:jupe courte:jupes courtes]
 [ADJECTIVE:short]
 [LAYER:OVER]
 [COVERAGE:100]
@@ -95,7 +95,7 @@ item_pants
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT_LONG]
-[NAME:skirt:skirts]
+[NAMEue jupe:longues jupes]
 [ADJECTIVE:long]
 [LBSTEP:MAX]
 [LAYER:OVER]
@@ -108,8 +108,8 @@ item_pants
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_BRAIES]
-[PREPLURAL:pairs of]
-[NAME:braies:braies]
+[PREPLURAL:paire de]
+[NAME:braie:braies]
 [LBSTEP:1]
 [LAYER:UNDER]
 [COVERAGE:100]
@@ -119,3 +119,4 @@ item_pants
 [SOFT]
 [LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
