@@ -305,7 +305,7 @@ language_words
 		[REAR_COMPOUND_NOUN_PLUR]
 		[THE_COMPOUND_NOUN_PLUR]
 		[OF_NOUN_PLUR]
-	[VERB:baigner:baigne:a baignΘ:baignΘ:en train de baigner]
+	[VERB:baigner:baigne:a baigné:baigné:en train de baigner]
 		[STANDARD_VERB]
 
 [WORD:BATTLE]

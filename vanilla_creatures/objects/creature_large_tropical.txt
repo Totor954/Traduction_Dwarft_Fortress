@@ -1568,7 +1568,7 @@ creature_large_tropical
 				[TLCM_NOUN:yeux:PLURAL]
 
 [CREATURE:GORILLA]
-	[DESCRIPTION:Un enorme singe vivant en petit groupe se nourrissant de  diverses plantes des forets. Les groupes sont diriges par le male dominant au dos argentΘ.]
+	[DESCRIPTION:Un enorme singe vivant en petit groupe se nourrissant de  diverses plantes des forets. Les groupes sont diriges par le male dominant au dos argenté.]
 	[NAME:gorille:gorilles:de gorille]
 	[CASTE_NAME:gorille:gorilles:de gorille]
 	[CREATURE_TILE:'G'][COLOR:0:0:1]
@@ -3280,7 +3280,7 @@ creature_large_tropical
 
 
 [CREATURE:RHINOCEROS]
-	[DESCRIPTION:Un grand herbivore avec d'Θpaises plaques sur la peau.  Il est connu pour ses Θpaises cornes sur le bout de son museau.]
+	[DESCRIPTION:Un grand herbivore avec d'épaises plaques sur la peau.  Il est connu pour ses épaises cornes sur le bout de son museau.]
 	[NAME:rhinoceros:rhinoceros:rhinoceros]
 	[CASTE_NAME:rhinoceros:rhinoceros:rhinoceros]
 	[CHILD:10][GENERAL_CHILD_NAME:jeune rhinoceros:jeunes rhinoceros]

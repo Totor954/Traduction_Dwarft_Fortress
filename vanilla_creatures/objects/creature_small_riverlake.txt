@@ -369,7 +369,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_KNIFEFISH_BANDED]
 	[DESCRIPTION:A small spotted fish found in tropical rivers and lakes.]
-	[NAME:gymnote rayΘ:gymnotes rayΘes:gymnote rayΘ]
+	[NAME:gymnote rayé:gymnotes rayées:gymnote rayé]
 	[CASTE_NAME:banded knifefish:banded knifefish:banded knifefish]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER]

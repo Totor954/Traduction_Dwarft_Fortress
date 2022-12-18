@@ -3,7 +3,7 @@ creature_birds
 [OBJECT:CREATURE]
 
 [CREATURE:BIRD_BLUEJAY]
-	[DESCRIPTION:Un petit oiseau bleu huppΘ vivant dans les bois temperes, connu pour ses chants percants.]
+	[DESCRIPTION:Un petit oiseau bleu huppé vivant dans les bois temperes, connu pour ses chants percants.]
 	[NAME:geai bleu:geais bleus:geai bleu]
 	[CASTE_NAME:geai bleu:geais bleus:geai bleu]
 	[GENERAL_CHILD_NAME:poussin geai bleu:poussins geais bleus:poussin geai bleu]
@@ -164,7 +164,7 @@ creature_birds
 
 
 [CREATURE:BIRD_CARDINAL]
-	[DESCRIPTION:Un petit oiseau rouge vif avec un crete caracteristique, trouvΘ dans les forets temperees.]
+	[DESCRIPTION:Un petit oiseau rouge vif avec un crete caracteristique, trouvé dans les forets temperees.]
 	[NAME:cardinal:cardinaux:cardinal]
 	[CASTE_NAME:cardinal:cardinaaux:cardinal]
 	[GENERAL_CHILD_NAME:poussin cardinal:poussins cardinaux]
@@ -324,7 +324,7 @@ creature_birds
 
 
 [CREATURE:BIRD_GRACKLE]
-	[DESCRIPTION:Un petit oiseau gregaire, bleu et noir avec les yeux jaunes, trouvΘ dans les pres temperes.]
+	[DESCRIPTION:Un petit oiseau gregaire, bleu et noir avec les yeux jaunes, trouvé dans les pres temperes.]
 	[NAME:quiscale bronze:quiscales bronzes:quiscale bronze]
 	[CASTE_NAME:quiscale bronze:quiscales bronzes:quiscale bronze]
 	[GENERAL_CHILD_NAME:poussin quiscale bronze:poussins quiscales bronzes]
