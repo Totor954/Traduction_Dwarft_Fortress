@@ -3,7 +3,8 @@ item_armor
 [OBJECT:ITEM]
 
 [ITEM_ARMOR:ITEM_ARMOR_BREASTPLATE]
-[NAME:breastplate:breastplates]
+[NAME:plaque:plaques]
+[PREPLURAL:armure de]
 [ARMORLEVEL:3]
 [UBSTEP:0]
 [LBSTEP:0]
@@ -17,7 +18,8 @@ item_armor
 [METAL]
 
 [ITEM_ARMOR:ITEM_ARMOR_MAIL_SHIRT]
-[NAME:mail shirt:mail shirts]
+[NAME:cotte de mailles:cotte de mailles]
+[PREPLURAL:complete]
 [ARMORLEVEL:2]
 [UBSTEP:1]
 [LBSTEP:1]
@@ -31,9 +33,9 @@ item_armor
 [STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_ARMOR:ITEM_ARMOR_LEATHER]
-[NAME:armor:armor]
-[PREPLURAL:suits of]
-[MATERIAL_PLACEHOLDER:leather]
+[NAME:armure:armure]
+[PREPLURAL:complete]
+[MATERIAL_PLACEHOLDER:de cuir]
 [ARMORLEVEL:1]
 [UBSTEP:1]
 [LBSTEP:1]
@@ -46,7 +48,7 @@ item_armor
 [LEATHER]
 
 [ITEM_ARMOR:ITEM_ARMOR_COAT]
-[NAME:coat:coats]
+[NAME:manteau:manteaux]
 [UBSTEP:MAX]
 [LBSTEP:1]
 [LAYER:OVER]
@@ -59,7 +61,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_SHIRT]
-[NAME:shirt:shirts]
+[NAME:chemise:chemises]
 [UBSTEP:MAX]
 [LBSTEP:0]
 [LAYER:UNDER]
@@ -72,7 +74,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_CLOAK]
-[NAME:cloak:cloaks]
+[NAME:cape:capes]
 [UBSTEP:MAX]
 [LBSTEP:1]
 [LAYER:COVER]
@@ -85,7 +87,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_TUNIC]
-[NAME:tunic:tunics]
+[NAME:tunique:tuniques]
 [UBSTEP:0]
 [LBSTEP:1]
 [LAYER:UNDER]
@@ -98,7 +100,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_TOGA]
-[NAME:toga:togas]
+[NAME:toge:toges]
 [UBSTEP:1]
 [LBSTEP:1]
 [LAYER:OVER]
@@ -124,7 +126,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_VEST]
-[NAME:vest:vests]
+[NAME:veste:vestes]
 [UBSTEP:0]
 [LBSTEP:0]
 [LAYER:OVER]
@@ -137,7 +139,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_DRESS]
-[NAME:dress:dresses]
+[NAME:robe:robes]
 [UBSTEP:MAX]
 [LBSTEP:MAX]
 [LAYER:UNDER]
@@ -150,7 +152,7 @@ item_armor
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_ROBE]
-[NAME:robe:robes]
+[NAME:bure:bures]
 [UBSTEP:MAX]
 [LBSTEP:MAX]
 [LAYER:OVER]
@@ -161,3 +163,4 @@ item_armor
 [SOFT]
 [LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+

@@ -3,7 +3,7 @@ building_custom
 [OBJECT:BUILDING]
 
 [BUILDING_WORKSHOP:SOAP_MAKER]
-	[NAME:Soap Maker's Workshop]
+	[NAME:Atelier de savonnerie]
 	[NAME_COLOR:7:0:1]
 	[DIM:3:3]
 	[WORK_LOCATION:2:2]
@@ -41,7 +41,7 @@ building_custom
 	[TOOLTIP:Use tallow (rendered fat) or oil here with lye to make soap.]
 
 [BUILDING_WORKSHOP:SCREW_PRESS]
-	[NAME:Screw Press]
+	[NAME:Presse a boulons]
 	[NAME_COLOR:7:0:1]
 	[DIM:1:1]
 	[WORK_LOCATION:1:1]
@@ -54,3 +54,4 @@ building_custom
 	[COLOR:1:1:MAT]
 	[BUILD_ITEM:2:TRAPPARTS:NONE:NONE:NONE][CAN_USE_ARTIFACT]
 	[TOOLTIP:A useful workshop for pressing liquids from various sources. Some plants might need to be milled first before they can be used.  Empty jugs are required to store the liquid products.]
+

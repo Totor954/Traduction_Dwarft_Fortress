@@ -4,7 +4,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_LUNGFISH]
 	[DESCRIPTION:A small fish which can walk on the land and breathe air.  It burrows in the mud when things get dry.]
-	[NAME:lungfish:lungfish:lungfish]
+	[NAME:dipneuste:dipneustes:dipneuste]
 	[CASTE_NAME:lungfish:lungfish:lungfish]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER]
@@ -85,7 +85,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_LOACH_CLOWN]
 	[DESCRIPTION:A tiny orange-striped fish.  It lives in inland waters.]
-	[NAME:clown loach:clown loaches:clown loach]
+	[NAME:loche clown:loches clown:loche clown]
 	[CASTE_NAME:clown loach:clown loaches:clown loach]
 	[CREATURE_TILE:224][COLOR:6:0:1]
 	[VERMIN_GROUNDER]
@@ -156,7 +156,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_BULLHEAD_BROWN]
 	[DESCRIPTION:A small whiskered fish found in muddy inland waters.]
-	[NAME:brown bullhead:brown bullheads:brown bullhead]
+	[NAME:barbotte brune:barbottes brunes:barbotte brune]
 	[CASTE_NAME:brown bullhead:brown bullheads:brown bullhead]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -227,7 +227,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_BULLHEAD_YELLOW]
 	[DESCRIPTION:A small whiskered fish found scavenging in inland waters.]
-	[NAME:yellow bullhead:yellow bullheads:yellow bullhead]
+	[NAME:silure jaune:silures jaunes:silure jaune]
 	[CASTE_NAME:yellow bullhead:yellow bullheads:yellow bullhead]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -298,7 +298,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_BULLHEAD_BLACK]
 	[DESCRIPTION:A small whiskered fish found in inland waters.]
-	[NAME:black bullhead:black bullheads:black bullhead]
+	[NAME:Barbotte noire:barbottes noires:barbotte noire]
 	[CASTE_NAME:black bullhead:black bullheads:black bullhead]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -369,7 +369,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_KNIFEFISH_BANDED]
 	[DESCRIPTION:A small spotted fish found in tropical rivers and lakes.]
-	[NAME:banded knifefish:banded knifefish:banded knifefish]
+	[NAME:gymnote rayΘ:gymnotes rayΘes:gymnote rayΘ]
 	[CASTE_NAME:banded knifefish:banded knifefish:banded knifefish]
 	[CREATURE_TILE:224][COLOR:6:0:0]
 	[VERMIN_GROUNDER]
@@ -440,7 +440,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_CHAR]
 	[DESCRIPTION:A medium-sized spotted fish found in temperate lakes and rivers.]
-	[NAME:char:char:char]
+	[NAME:omble chevalier:ombles chevalier:omble chevalier]
 	[CASTE_NAME:char:char:char]
 	[CREATURE_TILE:224][COLOR:0:0:1]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -511,7 +511,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_TROUT_RAINBOW]
 	[DESCRIPTION:A medium-sized spotted fish found in temperate rivers and lakes.]
-	[NAME:rainbow trout:rainbow trout:rainbow trout]
+	[NAME:truite arc en ciel:truites arc en ciel:truite arc-en-ciel]
 	[CASTE_NAME:rainbow trout:rainbow trout:rainbow trout]
 	[CREATURE_TILE:224][COLOR:2:0:1]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -582,7 +582,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_MOLLY_SAILFIN]
 	[DESCRIPTION:A tiny spotted fish found in coastal rivers and temperate lakes.]
-	[NAME:sailfin molly:sailfin mollies:sailfin molly]
+	[NAME:molly voile:mollys voile:molly voile]
 	[CASTE_NAME:sailfin molly:sailfin mollies:sailfin molly]
 	[CREATURE_TILE:224][COLOR:2:0:0]
 	[VERMIN_GROUNDER]
@@ -657,7 +657,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_GUPPY]
 	[DESCRIPTION:A tiny colorful fish found in tropical lakes and rivers.]
-	[NAME:guppy:guppies:guppy]
+	[NAME:guppy:guppys:guppy]
 	[CASTE_NAME:guppy:guppies:guppy]
 	[CREATURE_TILE:224][COLOR:1:0:1]
 	[VERMIN_GROUNDER]
@@ -732,7 +732,7 @@ creature_small_riverlake
 
 [CREATURE:FISH_PERCH]
 	[DESCRIPTION:A small striped fish found in fresh water.]
-	[NAME:perch:perch:perch]
+	[NAME:perche:perches:perche]
 	[CASTE_NAME:perch:perch:perch]
 	[CREATURE_TILE:224][COLOR:7:0:1]
 	[VERMIN_GROUNDER][VERMIN_FISH]
@@ -800,3 +800,4 @@ creature_small_riverlake
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
+

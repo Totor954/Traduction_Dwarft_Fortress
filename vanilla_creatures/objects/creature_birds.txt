@@ -3,10 +3,10 @@ creature_birds
 [OBJECT:CREATURE]
 
 [CREATURE:BIRD_BLUEJAY]
-	[DESCRIPTION:A small blue-crested bird living in temperate woodlands, known for its harsh chirps.]
-	[NAME:blue jay:blue jays:blue jay]
-	[CASTE_NAME:blue jay:blue jays:blue jay]
-	[GENERAL_CHILD_NAME:blue jay hatchling:blue jay hatchlings]
+	[DESCRIPTION:Un petit oiseau bleu huppΘ vivant dans les bois temperes, connu pour ses chants percants.]
+	[NAME:geai bleu:geais bleus:geai bleu]
+	[CASTE_NAME:geai bleu:geais bleus:geai bleu]
+	[GENERAL_CHILD_NAME:poussin geai bleu:poussins geais bleus:poussin geai bleu]
 	[CREATURE_TILE:249][COLOR:1:0:1]
 	[PETVALUE:30][NATURAL][PET]
 	[BIOME:GRASSLAND_TEMPERATE]
@@ -162,11 +162,12 @@ creature_birds
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 
+
 [CREATURE:BIRD_CARDINAL]
-	[DESCRIPTION:A small bright red bird with a distinctive crest, found in temperate forests.]
-	[NAME:cardinal:cardinals:cardinal]
-	[CASTE_NAME:cardinal:cardinals:cardinal]
-	[GENERAL_CHILD_NAME:cardinal hatchling:cardinal hatchlings]
+	[DESCRIPTION:Un petit oiseau rouge vif avec un crete caracteristique, trouvΘ dans les forets temperees.]
+	[NAME:cardinal:cardinaux:cardinal]
+	[CASTE_NAME:cardinal:cardinaaux:cardinal]
+	[GENERAL_CHILD_NAME:poussin cardinal:poussins cardinaux]
 	[CREATURE_TILE:249][COLOR:4:0:1]
 	[PETVALUE:30][NATURAL][PET]
 	[BIOME:GRASSLAND_TEMPERATE]
@@ -321,11 +322,12 @@ creature_birds
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 
+
 [CREATURE:BIRD_GRACKLE]
-	[DESCRIPTION:A small gregarious bird, blue and black with yellow eyes, found in temperate pastures.]
-	[NAME:grackle:grackles:grackle]
-	[CASTE_NAME:grackle:grackles:grackle]
-	[GENERAL_CHILD_NAME:grackle hatchling:grackle hatchlings]
+	[DESCRIPTION:Un petit oiseau gregaire, bleu et noir avec les yeux jaunes, trouvΘ dans les pres temperes.]
+	[NAME:quiscale bronze:quiscales bronzes:quiscale bronze]
+	[CASTE_NAME:quiscale bronze:quiscales bronzes:quiscale bronze]
+	[GENERAL_CHILD_NAME:poussin quiscale bronze:poussins quiscales bronzes]
 	[CREATURE_TILE:249][COLOR:0:0:1]
 	[PETVALUE:30][NATURAL][PET]
 	[BIOME:GRASSLAND_TEMPERATE]
@@ -346,7 +348,7 @@ creature_birds
 	[SWIMS_INNATE]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
-	[PREFSTRING:raucous calls]
+	[PREFSTRING:appels bruyant]
 	[BODY:HUMANOID_ARMLESS_NECK:2WINGS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
 		[REMOVE_MATERIAL:HAIR]
@@ -384,7 +386,7 @@ creature_birds
 	[MAXAGE:10:20]
 	[ATTACK:BITE:BODYPART:BY_CATEGORY:BEAK]
 		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
+		[ATTACK_VERB:mordez:mord]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -477,11 +479,12 @@ creature_birds
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 
+
 [CREATURE:BIRD_ORIOLE]
-	[DESCRIPTION:A small yellow and black bird.  They feed in the canopy of the forest.]
-	[NAME:oriole:orioles:oriole]
-	[CASTE_NAME:oriole:orioles:oriole]
-	[GENERAL_CHILD_NAME:oriole hatchling:oriole hatchlings]
+	[DESCRIPTION:Un petit oiseau noir et jaune. Ils se nourrissent aux canopee des forets.]
+	[NAME:loriot:loriots:loriot]
+	[CASTE_NAME:loriot:loriots:loriot]
+	[GENERAL_CHILD_NAME:poussin loriot:poussins loriots]
 	[CREATURE_TILE:249][COLOR:6:0:1]
 	[PETVALUE:30][NATURAL][PET]
 	[BIOME:FOREST_TEMPERATE_BROADLEAF]
@@ -632,11 +635,12 @@ creature_birds
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 
+
 [CREATURE:BIRD_RW_BLACKBIRD]
-	[DESCRIPTION:A small black bird with bright red markings under the wings.  They live in the marshland.]
-	[NAME:red-winged blackbird:red-winged blackbirds:red-winged blackbird]
-	[CASTE_NAME:red-winged blackbird:red-winged blackbirds:red-winged blackbird]
-	[GENERAL_CHILD_NAME:red-winged blackbird hatchling:red-winged blackbird hatchlings]
+	[DESCRIPTION:Un petit oiseau noir avec des marques rouges vifs sur les ailes. Ils vivent dans les marecages.]
+	[NAME:carouge a epaulettes:carouges a epaulettes:carouge a epaulettes]
+	[CASTE_NAME:carouge a epaulettes:carouges a epaulettes:carouge a epaulettes]
+	[GENERAL_CHILD_NAME:poussin carouge a epaulettes:poussin carouges a epaulettes]
 	[CREATURE_TILE:249][COLOR:0:0:1]
 	[PETVALUE:30][NATURAL][PET]
 	[BIOME:MARSH_TEMPERATE_FRESHWATER]
@@ -798,11 +802,13 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	Greenacre
 	Theq629
 
-[CREATURE:BIRD_PENGUIN] (based on Magellanic penguin like the ones in the local zoo, while we only have 3 kinds)
-	[DESCRIPTION:A small flightless bird that lives on arctic shorelines.]
-	[NAME:penguin:penguins:penguin]
-	[CASTE_NAME:penguin:penguins:penguin]
-	[CHILD:1][GENERAL_CHILD_NAME:penguin chick:penguin chicks]
+
+[CREATURE:BIRD_PENGUIN]
+ (based on Magellanic pingouin like the ones in the local zoo, while we only have 3 kinds)
+	[DESCRIPTION:Un petit oiseau volant vivant sur les rivages Arctiques.]
+	[NAME:pingouin:pingouins:pingouin]
+	[CASTE_NAME:pingouin:pingouins:pingouin]
+	[CHILD:1][GENERAL_CHILD_NAME:poussin pingouin:poussins pingouins]
 	[CREATURE_TILE:'p'][COLOR:0:0:1]
 	[NATURAL]
 	[LARGE_ROAMING]
@@ -818,8 +824,8 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph, NO DATA
 	[SWIMS_INNATE]
 	[PREFSTRING:coloration]
-	[PREFSTRING:waddling gait]
-	[PREFSTRING:way of flying through the water]
+	[PREFSTRING:marche en dandinant]
+	[PREFSTRING:vole sous l'eau]
 	[BODY:HUMANOID_ARMLESS_NECK:SIDE_FLIPPERS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
 	[RELSIZE:BY_CATEGORY:LEG_UPPER:100] short legs!
 	[RELSIZE:BY_CATEGORY:LEG_LOWER:100]
@@ -860,7 +866,7 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[MAXAGE:20:30]
 	[ATTACK:BITE:BODYPART:BY_CATEGORY:BEAK]
 		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
+		[ATTACK_VERB:picorez:picore]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -881,23 +887,23 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:feathers:PLURAL]
+				[TLCM_NOUN:plumes:PLURAL]
 		[SET_TL_GROUP:BY_CATEGORY:BODY_UPPER:FEATHER]
 		 [PLUS_TL_GROUP:BY_CATEGORY:BODY_LOWER:FEATHER]
 			[TL_COLOR_MODIFIER:WHITE:1]
-				[TLCM_NOUN:belly:SINGULAR]
+				[TLCM_NOUN:ventre:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:1:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:1:PEACH:1:PINK:1:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
-				[TLCM_NOUN:skin:SINGULAR]
+				[TLCM_NOUN:peau:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:yeux:PLURAL]
 
 [CREATURE:BIRD_PENGUIN_LITTLE]
-	[DESCRIPTION:A small flightless bird, blue in color, that lives on arctic shorelines.]
-	[NAME:little penguin:little penguins:little penguin]
-	[CASTE_NAME:little penguin:little penguins:little penguin]
-	[CHILD:1][GENERAL_CHILD_NAME:little penguin chick:little penguin chicks]
+	[DESCRIPTION:un petit oiseau volant, de couleur bleu, vivant sur les rivages Arctiques.]
+	[NAME:petit pingouin:petits pingouins:petit pingouin]
+	[CASTE_NAME:petit pingouin:petit pingouins:petit pingouin]
+	[CHILD:1][GENERAL_CHILD_NAME:poussin petit pingouin:poussins petits pingouins]
 	[CREATURE_TILE:'p'][COLOR:1:0:1]
 	[NATURAL]
 	[LARGE_ROAMING]
@@ -912,10 +918,10 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:900:750:600:439:1900:2900] 20 kph, NO DATA
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph, NO DATA
 	[SWIMS_INNATE]
-	[PREFSTRING:small size]
+	[PREFSTRING:petite taille]
 	[PREFSTRING:coloration]
-	[PREFSTRING:waddling gait]
-	[PREFSTRING:way of flying through the water]
+	[PREFSTRING:marche en dandinant]
+	[PREFSTRING:vole sous l'eau]
 	[BODY:HUMANOID_ARMLESS_NECK:SIDE_FLIPPERS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
 	[RELSIZE:BY_CATEGORY:LEG_UPPER:100]
 	[RELSIZE:BY_CATEGORY:LEG_LOWER:100]
@@ -956,7 +962,7 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[MAXAGE:20:30]
 	[ATTACK:BITE:BODYPART:BY_CATEGORY:BEAK]
 		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
+		[ATTACK_VERB:picorez:picore]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -977,23 +983,23 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
 			[TL_COLOR_MODIFIER:BLUE:1]
-				[TLCM_NOUN:feathers:PLURAL]
+				[TLCM_NOUN:plumes:PLURAL]
 		[SET_TL_GROUP:BY_CATEGORY:BODY_UPPER:FEATHER]
 		 [PLUS_TL_GROUP:BY_CATEGORY:BODY_LOWER:FEATHER]
 			[TL_COLOR_MODIFIER:WHITE:1]
-				[TLCM_NOUN:belly:SINGULAR]
+				[TLCM_NOUN:ventre:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:1:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:1:PEACH:1:PINK:1:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
-				[TLCM_NOUN:skin:SINGULAR]
+				[TLCM_NOUN:peau:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:yeux:PLURAL]
 
 [CREATURE:BIRD_PENGUIN_EMPEROR]
-	[DESCRIPTION:A small flightless bird, it is the largest of the natural penguins.  It is known for its treks through leagues of glacial ice.]
-	[NAME:emperor penguin:emperor penguins:emperor penguin]
-	[CASTE_NAME:emperor penguin:emperor penguins:emperor penguin]
-	[CHILD:1][GENERAL_CHILD_NAME:emperor penguin chick:emperor penguin chicks]
+	[DESCRIPTION:un petit oiseau volant, c'est le plus grand des pingouins naturelles.  Il est connu pour ses randonnees a travers des paysages glacial.]
+	[NAME:pingouin empereur:pingouins empereurs:pingouin empereur]
+	[CASTE_NAME:pingouin empereur:pingouins empereurs:pingouin empereur]
+	[CHILD:1][GENERAL_CHILD_NAME:poussin pingouin empereur:poussins pingouins empereurs]
 	[CREATURE_TILE:'p'][COLOR:7:0:1]
 	[NATURAL]
 	[LARGE_ROAMING]
@@ -1008,10 +1014,10 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:900:750:600:439:1900:2900] 20 kph, NO DATA
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph, NO DATA
 	[SWIMS_INNATE]
-	[PREFSTRING:large size]
+	[PREFSTRING:grande taille]
 	[PREFSTRING:coloration]
-	[PREFSTRING:waddling gait]
-	[PREFSTRING:way of flying through the water]
+	[PREFSTRING:marche en dandinant]
+	[PREFSTRING:vole sous l'eau]
 	[BODY:HUMANOID_ARMLESS_NECK:SIDE_FLIPPERS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
 	[RELSIZE:BY_CATEGORY:LEG_UPPER:100]
 	[RELSIZE:BY_CATEGORY:LEG_LOWER:100]
@@ -1052,7 +1058,7 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[MAXAGE:20:50]
 	[ATTACK:BITE:BODYPART:BY_CATEGORY:BEAK]
 		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
+		[ATTACK_VERB:picorez:picore]
 		[ATTACK_CONTACT_PERC:100]
 		[ATTACK_PENETRATION_PERC:100]
 		[ATTACK_FLAG_EDGE]
@@ -1073,17 +1079,17 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:feathers:PLURAL]
+				[TLCM_NOUN:plumes:PLURAL]
 		[SET_TL_GROUP:BY_CATEGORY:BODY_UPPER:FEATHER]
 		 [PLUS_TL_GROUP:BY_CATEGORY:BODY_LOWER:FEATHER]
 			[TL_COLOR_MODIFIER:WHITE:1]
-				[TLCM_NOUN:belly:SINGULAR]
+				[TLCM_NOUN:ventre:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:1:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:1:PEACH:1:PINK:1:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
-				[TLCM_NOUN:skin:SINGULAR]
+				[TLCM_NOUN:peau:SINGULAR]
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:yeux:PLURAL]
 
 [CREATURE:PENGUIN MAN]
 	[COPY_TAGS_FROM:BIRD_PENGUIN]
@@ -1096,7 +1102,7 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[SELECT_CASTE:MALE]
 		[CASTE_NAME:penguin man:penguin men:penguin man]
 	[SELECT_CASTE:FEMALE]
-		[CASTE_NAME:penguin woman:penguin women:penguin woman]
+		[CASTE_NAME:femme-pingouin:femmes-pingouins:femme-pingouin]
 	[SELECT_CASTE:ALL]
 	[APPLY_CREATURE_VARIATION:PUNCH_ATTACK]
 	[APPLY_CREATURE_VARIATION:KICK_ATTACK]
@@ -1107,8 +1113,8 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:900:711:521:293:1900:2900] 30 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[GO_TO_START]
-	[NAME:penguin man:penguin men:penguin man]
-	[DESCRIPTION:A humanoid with the head, feet, and feathers of a penguin.]
+	[NAME:home-pingouin:homes-pingouins:homme-pingouin]
+	[DESCRIPTION:Un humanoide avec la tete, les pieds et les plumes d'un pingouin.]
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
@@ -1123,10 +1129,10 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_END]
 	[CHANGE_BODY_SIZE_PERC:5702] this also resizes the eggs
 	[GO_TO_START]
-	[NAME:giant penguin:giant penguins:giant penguin]
-	[CASTE_NAME:giant penguin:giant penguins:giant penguin]
-	[GENERAL_CHILD_NAME:giant penguin chick:giant penguin chicks]
-	[DESCRIPTION:A huge monster, shaped like a penguin.]
+	[NAME:pingouin geant:pingouins geants:pingouin geant]
+	[CASTE_NAME:pingouin geant:pingouins geants:pingouin geant]
+	[GENERAL_CHILD_NAME:poussin pingouin geant:poussins pingouins geants]
+	[DESCRIPTION:un enorme monstre, ressemblant a un pingouin.]
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:5:10]
 	[CREATURE_TILE:'P']
@@ -1134,10 +1140,10 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
-	[PREFSTRING:enormous size]
+	[PREFSTRING:gigantesque]
 	[PREFSTRING:coloration]
-	[PREFSTRING:waddling gait]
-	[PREFSTRING:way of flying through the water]
+	[PREFSTRING:marche en dandinant]
+	[PREFSTRING:vole sous l'eau]
 	[APPLY_CREATURE_VARIATION:STANDARD_WALKING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:900:750:600:439:1900:2900] 20 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
@@ -1334,6 +1340,7 @@ Kiwis were sponsored by the generous contributions of the Bay 12 community.
 	For Tamsyn Muir
 	Gregory Kampjes, McLovin
 
+
 [CREATURE:BIRD_KIWI]
 	[DESCRIPTION:A small, brown, flightless bird.  It eats insects and grubs and is known for its keen sense of smell.]
 	[NAME:kiwi:kiwis:kiwi]
@@ -1491,6 +1498,7 @@ Ostriches were sponsored by the generous contributions of the Bay 12 community.
 	BlargityBlarg lived on a farm of these things 'til he was five!
 	Priestly
 	Tristan Hayes
+
 
 [CREATURE:BIRD_OSTRICH]
 	[DESCRIPTION:A large flightless bird that runs through the savanna.  It has a long neck and legs.]
@@ -1666,3 +1674,5 @@ Ostriches were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:STANDARD_WALKING_GAITS:900:657:438:219:1900:2900] 40 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:6561:6115:5683:1755:7456:8567] 5 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:6561:6115:5683:1755:7456:8567] 5 kph
+
+

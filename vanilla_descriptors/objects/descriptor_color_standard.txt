@@ -2,30 +2,28 @@ descriptor_color_standard
 
 [OBJECT:DESCRIPTOR_COLOR]
 
-Most of these are from Wikipedia's color list.  Palettes only support 255 colors max currently.
-
 [COLOR:AMBER]
-	[NAME:amber]
+	[NAME:ambre]
 	[WORD:AMBER]
 	[RGB:255:191:0]
 
 [COLOR:AMETHYST]
-	[NAME:amethyst]
+	[NAME:amethyste]
 	[WORD:AMETHYST]
 	[RGB:153:102:204]
 
 [COLOR:AQUA]
-	[NAME:aqua]
+	[NAME:cyan]
 	[WORD:AQUA]
 	[RGB:0:255:255]
 
 [COLOR:AQUAMARINE]
-	[NAME:aquamarine]
+	[NAME:aigue-marine]
 	[WORD:AQUAMARINE]
 	[RGB:127:255:212]
 
 [COLOR:ASH_GRAY]
-	[NAME:ash gray]
+	[NAME:gris cendre]
 	[WORD:GRAY]
 	[RGB:178:190:181]
 
@@ -35,7 +33,7 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:111:53:26]
 
 [COLOR:AZURE]
-	[NAME:azure]
+	[NAME:azur]
 	[WORD:AZURE]
 	[RGB:0:127:255]
 
@@ -45,17 +43,17 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:245:245:220]
 
 [COLOR:BLACK]
-	[NAME:black]
+	[NAME:noir]
 	[WORD:BLACK]
 	[RGB:0:0:0]
 
 [COLOR:BLUE]
-	[NAME:blue]
+	[NAME:bleu]
 	[WORD:BLUE]
 	[RGB:0:0:255]
 
 [COLOR:BRASS]
-	[NAME:brass]
+	[NAME:laiton]
 	[WORD:BRASS]
 	[RGB:181:166:66]
 
@@ -65,22 +63,22 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:205:127:50]
 
 [COLOR:BROWN]
-	[NAME:brown]
+	[NAME:brun]
 	[WORD:BROWN]
 	[RGB:150:75:0]
 
 [COLOR:BUFF]
-	[NAME:buff]
+	[NAME:rougeatre]
 	[WORD:BUFF]
 	[RGB:240:220:130]
 
 [COLOR:BURNT_SIENNA]
-	[NAME:burnt sienna]
+	[NAME:hematite]
 	[WORD:SIENNA]
 	[RGB:233:116:81]
 
 [COLOR:BURNT_UMBER]
-	[NAME:burnt umber]
+	[NAME:terre de sienne]
 	[WORD:UMBER]
 	[RGB:138:51:36]
 
@@ -90,17 +88,17 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:196:30:58]
 
 [COLOR:CARMINE]
-	[NAME:carmine]
+	[NAME:carmin]
 	[WORD:CARMINE]
 	[RGB:150:0:24]
 
 [COLOR:CERULEAN]
-	[NAME:cerulean]
+	[NAME:ceruleum]
 	[WORD:CERULEAN]
 	[RGB:0:123:167]
 
 [COLOR:CHARCOAL]
-	[NAME:charcoal]
+	[NAME:charbon]
 	[WORD:CHARCOAL]
 	[RGB:54:69:79]
 
@@ -110,97 +108,97 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:127:255:0]
 
 [COLOR:CHESTNUT]
-	[NAME:chestnut]
+	[NAME:chataigne]
 	[WORD:CHESTNUT]
 	[RGB:205:92:92]
 
 [COLOR:CHOCOLATE]
-	[NAME:chocolate]
+	[NAME:chocolat]
 	[WORD:CHOCOLATE]
 	[RGB:210:105:30]
 
 [COLOR:CINNAMON]
-	[NAME:cinnamon]
+	[NAME:cannelle]
 	[WORD:CINNAMON]
 	[RGB:123:63:0]
 
 [COLOR:CLEAR]
-	[NAME:clear]
+	[NAME:gris fer]
 	[WORD:CLEAR]
 	[RGB:128:128:128]
 
 [COLOR:COBALT]
-	[NAME:cobalt]
+	[NAME:bleu de cobalt]
 	[WORD:COBALT]
 	[RGB:0:71:171]
 
 [COLOR:COPPER]
-	[NAME:copper]
+	[NAME:cuivre]
 	[WORD:COPPER]
 	[RGB:184:115:51]
 
 [COLOR:CREAM]
-	[NAME:cream]
+	[NAME:creme]
 	[WORD:CREAM]
 	[RGB:255:253:208]
 
 [COLOR:CRIMSON]
-	[NAME:crimson]
+	[NAME:cramoisi]
 	[WORD:CRIMSON]
 	[RGB:220:20:60]
 
 [COLOR:DARK_BLUE]
-	[NAME:dark blue]
+	[NAME:bleu fonce]
 	[WORD:BLUE]
 	[RGB:0:0:139]
 
 [COLOR:DARK_BROWN]
-	[NAME:dark brown]
+	[NAME:brun fonce]
 	[WORD:BROWN]
 	[RGB:101:67:33]
 
 [COLOR:DARK_CHESTNUT]
-	[NAME:dark chestnut]
+	[NAME:chataigne foncee]
 	[WORD:CHESTNUT]
 	[RGB:152:105:96]
 
 [COLOR:DARK_GREEN]
-	[NAME:dark green]
+	[NAME:vert fonce]
 	[WORD:GREEN]
 	[RGB:1:50:32]
 
 [COLOR:DARK_INDIGO]
-	[NAME:dark indigo]
+	[NAME:indigo fonce]
 	[WORD:INDIGO]
 	[RGB:49:0:98]
 
 [COLOR:DARK_OLIVE]
-	[NAME:dark olive]
+	[NAME:olive fonce]
 	[WORD:OLIVE]
 	[RGB:85:104:50]
 
 [COLOR:DARK_PEACH]
-	[NAME:dark peach]
+	[NAME:peche fonce]
 	[WORD:PEACH]
 	[RGB:255:218:185]
 
 [COLOR:DARK_PINK]
-	[NAME:dark pink]
+	[NAME:rose fonce]
 	[WORD:PINK]
 	[RGB:231:84:128]
 
 [COLOR:DARK_SCARLET]
-	[NAME:dark scarlet]
+	[NAME:ecarlate fonce]
 	[WORD:SCARLET]
 	[RGB:86:3:25]
 
 [COLOR:DARK_TAN]
-	[NAME:dark tan]
+	[NAME:tanne fonce]
 	[WORD:TAN]
 	[RGB:145:129:81]
 
 [COLOR:DARK_VIOLET]
-	[NAME:dark violet]
+	[NAME:violet fonce]
 	[WORD:VIOLET]
 	[RGB:66:49:137]
 
@@ -214,17 +212,17 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:97:64:81]
 
 [COLOR:EMERALD]
-	[NAME:emerald]
+	[NAME:emeraude]
 	[WORD:EMERALD]
 	[RGB:80:200:120]
 
 [COLOR:FERN_GREEN]
-	[NAME:fern green]
+	[NAME:vert fougere]
 	[WORD:GREEN]
 	[RGB:79:121:66]
 
 [COLOR:FLAX]
-	[NAME:flax]
+	[NAME:lin]
 	[WORD:FLAX]
 	[RGB:238:220:130]
 
@@ -234,39 +232,39 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:244:0:161]
 
 [COLOR:GOLD]
-	[NAME:gold]
+	[NAME:or]
 	[WORD:GOLD]
-	[RGB:212:175:55]
+	[RGB:255:215:0]
 
 [COLOR:GOLDEN_YELLOW]
-	[NAME:golden yellow]
+	[NAME:jaune or]
 	[WORD:GOLD]
 	[WORD:YELLOW]
 	[RGB:255:223:0]
 
 [COLOR:GOLDENROD]
-	[NAME:goldenrod]
+	[NAME:solidage]
 	[WORD:GOLDENROD]
 	[RGB:218:165:32]
 
 [COLOR:GRAY]
-	[NAME:gray]
+	[NAME:gris]
 	[WORD:GRAY]
 	[RGB:128:128:128]
 
 [COLOR:GREEN]
-	[NAME:green]
+	[NAME:vert]
 	[WORD:GREEN]
 	[RGB:0:255:0]
 
 [COLOR:GREEN-YELLOW]
-	[NAME:green-yellow]
+	[NAME:vert-jaune]
 	[WORD:GREEN]
 	[WORD:YELLOW]
 	[RGB:173:255:47]
 
 [COLOR:HELIOTROPE]
-	[NAME:heliotrope]
+	[NAME:helitrope]
 	[WORD:HELIOTROPE]
 	[RGB:223:115:255]
 
@@ -276,7 +274,7 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:75:0:130]
 
 [COLOR:IVORY]
-	[NAME:ivory]
+	[NAME:ivoire]
 	[WORD:IVORY]
 	[RGB:255:255:240]
 
@@ -286,32 +284,32 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:0:168:107]
 
 [COLOR:LAVENDER]
-	[NAME:lavender]
+	[NAME:lavande]
 	[WORD:LAVENDER]
 	[RGB:230:230:250]
 
 [COLOR:LAVENDER_BLUSH]
-	[NAME:lavender blush]
+	[NAME:lavende-rose]
 	[WORD:LAVENDER]
 	[RGB:255:240:245]
 
 [COLOR:LEMON]
-	[NAME:lemon]
+	[NAME:citron]
 	[WORD:LEMON]
 	[RGB:253:233:16]
 
 [COLOR:LIGHT_BLUE]
-	[NAME:light blue]
+	[NAME:bleu clair]
 	[WORD:BLUE]
 	[RGB:173:216:230]
 
 [COLOR:LIGHT_BROWN]
-	[NAME:light brown]
+	[NAME:brun clair]
 	[WORD:BROWN]
 	[RGB:205:133:63]
 
 [COLOR:LILAC]
-	[NAME:lilac]
+	[NAME:lilas]
 	[WORD:LILAC]
 	[RGB:200:162:200]
 
@@ -321,12 +319,12 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:204:255:0]
 
 [COLOR:MAHOGANY]
-	[NAME:mahogany]
+	[NAME:acajou]
 	[WORD:MAHOGANY]
 	[RGB:192:64:0]
 
 [COLOR:MAROON]
-	[NAME:maroon]
+	[NAME:marron]
 	[WORD:MAROON_COLOR]
 	[RGB:128:0:0]
 
@@ -342,22 +340,22 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:145:95:109]
 
 [COLOR:MIDNIGHT_BLUE]
-	[NAME:midnight blue]
+	[NAME:bleu nuit]
 	[WORD:BLUE]
 	[RGB:0:51:102]
 
 [COLOR:MINT_GREEN]
-	[NAME:mint green]
+	[NAME:menthe]
 	[WORD:GREEN]
 	[RGB:152:255:152]
 
 [COLOR:MOSS_GREEN]
-	[NAME:moss green]
+	[NAME:vert pale]
 	[WORD:GREEN]
 	[RGB:173:223:173]
 
 [COLOR:OCHRE]
-	[NAME:ochre]
+	[NAME:ocre]
 	[WORD:OCHRE]
 	[RGB:204:119:34]
 
@@ -372,78 +370,78 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:255:165:0]
 
 [COLOR:PALE_BLUE]
-	[NAME:pale blue]
+	[NAME:bleu pale]
 	[WORD:BLUE]
 	[RGB:175:238:238]
 
 [COLOR:PALE_BROWN]
-	[NAME:pale brown]
+	[NAME:brun pale]
 	[WORD:BROWN]
 	[RGB:152:118:84]
 
 [COLOR:PALE_CHESTNUT]
-	[NAME:pale chestnut]
+	[NAME:chataigne pale]
 	[WORD:CHESTNUT]
 	[RGB:221:173:175]
 
 [COLOR:PALE_PINK]
-	[NAME:pale pink]
+	[NAME:rose pale]
 	[WORD:PINK]
 	[RGB:250:218:221]
 
 [COLOR:PEACH]
-	[NAME:peach]
+	[NAME:peche]
 	[WORD:PEACH]
 	[RGB:255:229:180]
 
 [COLOR:PEARL]
-	[NAME:pearl]
+	[NAME:perle]
 	[WORD:PEARL]
 	[RGB:240:234:214]
 
 [COLOR:PERIWINKLE]
-	[NAME:periwinkle]
+	[NAME:lavande bleue]
 	[WORD:PERIWINKLE]
 	[RGB:204:204:255]
 
 [COLOR:PINE_GREEN]
-	[NAME:pine green]
+	[NAME:vert sapin]
 	[WORD:GREEN]
 	[WORD:PINE]
 	[RGB:1:121:111]
 
 [COLOR:PINK]
-	[NAME:pink]
+	[NAME:rose]
 	[WORD:PINK]
 	[RGB:255:192:203]
 
 [COLOR:PLUM]
-	[NAME:plum]
+	[NAME:prune]
 	[WORD:PLUM]
 	[RGB:102:0:102]
 
 [COLOR:PUCE]
-	[NAME:puce]
+	[NAME:rouge-brun]
 	[WORD:PUCE]
 	[RGB:204:136:153]
 
 [COLOR:PUMPKIN]
-	[NAME:pumpkin]
+	[NAME:citrouille]
 	[WORD:PUMPKIN]
 	[RGB:255:117:24]
 
 [COLOR:PURPLE]
-	[NAME:purple]
+	[NAME:pourpre]
 	[WORD:PURPLE]
 	[RGB:102:0:153]
 
 [COLOR:RAW_UMBER]
-	[NAME:raw umber]
+	[NAME:terre brulee]
 	[WORD:UMBER]
 	[RGB:115:74:18]
 
 [COLOR:RED]
-	[NAME:red]
+	[NAME:rouge]
 	[WORD:RED]
 	[RGB:255:0:0]
 
@@ -458,28 +456,29 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[WORD:ROSE]
 	[RGB:244:194:194] went with tea rose
 
+
 [COLOR:RUSSET]
-	[NAME:russet]
+	[NAME:feuille morte]
 	[WORD:RUSSET]
 	[RGB:117:90:87]
 
 [COLOR:RUST]
-	[NAME:rust]
+	[NAME:rouille]
 	[WORD:RUST]
 	[RGB:183:65:14]
 
 [COLOR:SAFFRON]
-	[NAME:saffron]
+	[NAME:saffran]
 	[WORD:SAFFRON]
 	[RGB:244:196:48]
 
 [COLOR:SCARLET]
-	[NAME:scarlet]
+	[NAME:ecarlate]
 	[WORD:SCARLET]
 	[RGB:255:36:0]
 
 [COLOR:SEA_GREEN]
-	[NAME:sea green]
+	[NAME:vert ocean]
 	[WORD:GREEN]
 	[WORD:SEA]
 	[WORD:OCEAN]
@@ -491,37 +490,37 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:112:66:20]
 
 [COLOR:SILVER]
-	[NAME:silver]
+	[NAME:argent]
 	[WORD:SILVER]
 	[RGB:192:192:192]
 
 [COLOR:SKY_BLUE]
-	[NAME:sky blue]
+	[NAME:bleu ciel]
 	[WORD:BLUE]
 	[RGB:135:206:235]
 
 [COLOR:SLATE_GRAY]
-	[NAME:slate gray]
+	[NAME:gris ardoise]
 	[WORD:GRAY]
 	[RGB:112:128:144]
 
 [COLOR:SPRING_GREEN]
-	[NAME:spring green]
+	[NAME:vert printemps]
 	[WORD:GREEN]
 	[RGB:0:255:127]
 
 [COLOR:TAN]
-	[NAME:tan]
+	[NAME:tanne]
 	[WORD:TAN]
 	[RGB:210:180:140]
 
 [COLOR:TAUPE_DARK]
-	[NAME:dark taupe]
+	[NAME:taupe fonce]
 	[WORD:TAUPE]
 	[RGB:72:60:50]
 
 [COLOR:TAUPE_GRAY]
-	[NAME:taupe gray]
+	[NAME:taupe claire]
 	[WORD:TAUPE]
 	[WORD:GRAY]
 	[RGB:139:133:137]
@@ -532,13 +531,13 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:103:76:71]
 
 [COLOR:TAUPE_PURPLE]
-	[NAME:purple taupe]
+	[NAME:taupe pourpre]
 	[WORD:PURPLE]
 	[WORD:TAUPE]
 	[RGB:80:64:77]
 
 [COLOR:TAUPE_PALE]
-	[NAME:pale taupe]
+	[NAME:taupe pale]
 	[WORD:TAUPE]
 	[RGB:188:152:126]
 
@@ -548,12 +547,12 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:144:93:93]
 
 [COLOR:TAUPE_SANDY]
-	[NAME:sandy taupe]
+	[NAME:taupe sable]
 	[WORD:TAUPE]
 	[RGB:150:113:23]
 
 [COLOR:TEAL]
-	[NAME:teal]
+	[NAME:vert canard]
 	[WORD:TEAL]
 	[RGB:0:128:128]
 
@@ -573,17 +572,17 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[RGB:139:0:255]
 
 [COLOR:WHITE]
-	[NAME:white]
+	[NAME:blanc]
 	[WORD:WHITE]
 	[RGB:255:255:255]
 
 [COLOR:YELLOW]
-	[NAME:yellow]
+	[NAME:jaune]
 	[WORD:YELLOW]
 	[RGB:255:255:0]
 
 [COLOR:YELLOW_GREEN]
-	[NAME:yellow-green]
+	[NAME:jaune-vert]
 	[WORD:GREEN]
 	[WORD:YELLOW]
 	[RGB:154:205:50]
@@ -592,3 +591,4 @@ Most of these are from Wikipedia's color list.  Palettes only support 255 colors
 	[NAME:blue-gray]
 	[WORD:GRAY]
 	[RGB:186:202:226]
+

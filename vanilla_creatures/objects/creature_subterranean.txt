@@ -4,7 +4,7 @@ creature_subterranean
 
 [CREATURE:CROCODILE_CAVE]
 	[DESCRIPTION:A huge, predatory reptile with pale, colorless scales and red eyes.  It lives in caves and ambushes its prey.]
-	[NAME:cave crocodile:cave crocodiles:cave crocodile]
+	[NAME:crocodile des cavernes:crocodiles des cavernes:crocodile des cavernes]
 	[CASTE_NAME:cave crocodile:cave crocodiles:cave crocodile]
 	[CHILD:3][GENERAL_CHILD_NAME:cave crocodile hatchling:cave crocodile hatchlings]
 	[CREATURE_TILE:'C'][COLOR:7:0:0]
@@ -255,7 +255,7 @@ creature_subterranean
 
 [CREATURE:BAT_GIANT]
 	[DESCRIPTION:A giant flying mammal found underground.]
-	[NAME:giant bat:giant bats:giant bat]
+	[NAME:chauve souris geante:chauves soursi geantes:chauve souris geante]
 	[CASTE_NAME:giant bat:giant bats:giant bat]
 	[CHILD:1][GENERAL_CHILD_NAME:giant bat pup:giant bat pups]
 	[CREATURE_TILE:'B'][COLOR:0:0:1]
@@ -344,7 +344,7 @@ creature_subterranean
 
 [CREATURE:RAT_GIANT]
 	[DESCRIPTION:A gigantic rodent found underground.]
-	[NAME:giant rat:giant rats:giant rat]
+	[NAME:rat geant:rats geants:rat geant]
 	[CASTE_NAME:giant rat:giant rats:giant rat]
 	[CHILD:1][GENERAL_CHILD_NAME:giant rat pup:giant rat pups]
 	[CREATURE_TILE:'R'][COLOR:6:0:0]
@@ -439,7 +439,7 @@ creature_subterranean
 
 [CREATURE:RAT_LARGE]
 	[DESCRIPTION:A huge rodent found underground.]
-	[NAME:large rat:large rats:large rat]
+	[NAME:rat large:rats larges:rat large]
 	[CASTE_NAME:large rat:large rats:large rat]
 	[CHILD:1][GENERAL_CHILD_NAME:large rat pup:large rat pups]
 	[CREATURE_TILE:'r'][COLOR:6:0:0]
@@ -531,7 +531,7 @@ creature_subterranean
 
 [CREATURE:MOLE_DOG_NAKED]
 	[DESCRIPTION:A large, pale rodent with loose, hanging, hairless skin.  It has long teeth and an incredibly powerful bite.  It is found underground.]
-	[NAME:naked mole dog:naked mole dogs:naked mole dog]
+	[NAME:chien-taupe nu:chiens-taupe nus:chien-taupe nu]
 	[CASTE_NAME:naked mole dog:naked mole dogs:naked mole dog]
 	[CHILD:1][GENERAL_CHILD_NAME:naked mole puppy:naked mole puppies]
 	[CREATURE_TILE:'n'][COLOR:4:0:1]
@@ -786,7 +786,7 @@ creature_subterranean
 
 [CREATURE:MOLE_GIANT]
 	[DESCRIPTION:A gigantic digging creature found underground.]
-	[NAME:giant mole:giant moles:giant mole]
+	[NAME:taupe geante:taupes geantes:taupe geante]
 	[CASTE_NAME:giant mole:giant moles:giant mole]
 	[CHILD:1][GENERAL_CHILD_NAME:giant mole pup:giant mole pups]
 	[CREATURE_TILE:'m'][COLOR:6:0:0]
@@ -878,7 +878,7 @@ creature_subterranean
 
 [CREATURE:IMP_FIRE]
 	[DESCRIPTION:A small humanoid surrounded by fire which they can hurl at their enemies.]
-	[NAME:fire imp:fire imps:fire imp]
+	[NAME:diablotin de feu:diablotins de feu:diablotin de feu]
 	[CASTE_NAME:fire imp:fire imps:fire imp]
 	[CREATURE_TILE:'i'][COLOR:6:0:1]
 	[LARGE_ROAMING][FREQUENCY:20]
@@ -998,7 +998,7 @@ creature_subterranean
 
 [CREATURE:SPIDER_CAVE_GIANT]
 	[DESCRIPTION:A large underground monster with eight legs and sharp, venomous fangs.]
-	[NAME:giant cave spider:giant cave spiders:giant cave spider]
+	[NAME:araignee geante des cavernes:araignees geantes des cavernes:araignee geante des cavernes]
 	[CASTE_NAME:giant cave spider:giant cave spiders:giant cave spider]
 	[CREATURE_TILE:'S'][COLOR:7:0:0]
 	[CREATURE_CLASS:POISONOUS]
@@ -1101,7 +1101,7 @@ creature_subterranean
 
 [CREATURE:SPIDER_CAVE]
 	[DESCRIPTION:A tiny underground bug, sought after for its thread.]
-	[NAME:cave spider:cave spiders:cave spider]
+	[NAME:araignee des cavernes:araignees des cavernes:araignee des cavernes]
 	[CASTE_NAME:cave spider:cave spiders:cave spider]
 	[CREATURE_TILE:249][COLOR:7:0:0]
 	[CREATURE_CLASS:POISONOUS]
@@ -1180,7 +1180,7 @@ creature_subterranean
 
 [CREATURE:FISH_CAVE]
 	[DESCRIPTION:A small pale creature found in underground streams and ponds.]
-	[NAME:cave fish:cave fish:cave fish]
+	[NAME:poisson des cavernes:poissons des cavernes:poisson des cavernes]
 	[CASTE_NAME:cave fish:cave fish:cave fish]
 	[CREATURE_TILE:224][COLOR:7:0:1]
 	[VERMIN_FISH][VERMIN_GROUNDER][FISHITEM][IMMOBILE_LAND][VERMIN_NOTRAP]
@@ -1278,7 +1278,7 @@ creature_subterranean
 
 [CREATURE:LOBSTER_CAVE]
 	[DESCRIPTION:A small, pale arthropod found in underground streams and ponds.]
-	[NAME:cave lobster:cave lobsters:cave lobster]
+	[NAME:homar des cavernes:homars des cavernes:homar des cavernes]
 	[CASTE_NAME:cave lobster:cave lobsters:cave lobster]
 	[CREATURE_TILE:157][COLOR:7:0:1]
 	[VERMIN_FISH][FISHITEM][VERMIN_NOFISH]
@@ -1331,7 +1331,7 @@ creature_subterranean
 
 [CREATURE:SNAKE_FIRE]
 	[DESCRIPTION:A serpent made of pure fire which can inject liquid fire as venom.]
-	[NAME:fire snake:fire snakes:fire snake]
+	[NAME:serpent de feu:serpents de feu:serpent de feu]
 	[CASTE_NAME:fire snake:fire snakes:fire snake]
 	[CREATURE_TILE:249][COLOR:6:0:1]
 	[PETVALUE:10]
@@ -1377,7 +1377,7 @@ creature_subterranean
 
 [CREATURE:OLM]
 	[DESCRIPTION:A tiny amphibian, found in underground streams.]
-	[NAME:olm:olms:olm]
+	[NAME:protee anguillard:protees anguillards:protee anguillard]
 	[CASTE_NAME:olm:olms:olm]
 	[CREATURE_TILE:249][COLOR:7:0:1]
 	[PETVALUE:10]
@@ -1473,7 +1473,7 @@ creature_subterranean
 
 [CREATURE:BAT]
 	[DESCRIPTION:A tiny winged creature that hunts at night and rests in caves during the day.]
-	[NAME:bat:bats:bat]
+	[NAME:chauve souris:chauves souris:chauve souris]
 	[CASTE_NAME:bat:bats:bat]
 	[CREATURE_TILE:249][COLOR:0:0:1]
 	[CREATURE_CLASS:MAMMAL]
@@ -1598,7 +1598,7 @@ creature_subterranean
 
 [CREATURE:MAGGOT_PURRING]
 	[DESCRIPTION:A tiny larva which is prized for its milk.]
-	[NAME:purring maggot:purring maggots:purring maggot]
+	[NAME:mouche bourdonnante:mouches bourdonnantes:mouche bourdonnante]
 	[CASTE_NAME:purring maggot:purring maggots:purring maggot]
 	[CREATURE_TILE:'{'][COLOR:7:0:1][ALTTILE:'}']
 	[PETVALUE:10]
@@ -1657,7 +1657,7 @@ creature_subterranean
 
 [CREATURE:ELEMENTMAN_FIRE]
 	[DESCRIPTION:Fire in the shape of a human that can hurl fireballs.]
-	[NAME:fire man:fire men:fire man]
+	[NAME:homme de feu:hommes de feu:homme de feu]
 	[CASTE_NAME:fire man:fire men:fire man]
 	[CREATURE_TILE:'M'][COLOR:4:0:1]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
@@ -1733,7 +1733,7 @@ creature_subterranean
 
 [CREATURE:ELEMENTMAN_MAGMA]
 	[DESCRIPTION:Magma moving in the shape of a man.  It has a cracked black crust.]
-	[NAME:magma man:magma men:magma man]
+	[NAME:homme de lave:hommes de lave:homme de lave]
 	[CASTE_NAME:magma man:magma men:magma man]
 	[CREATURE_TILE:'M'][COLOR:4:0:1]
 	[FIREIMMUNE][MAGMA_VISION]
@@ -1810,7 +1810,7 @@ creature_subterranean
 
 [CREATURE:ELEMENTMAN_IRON]
 	[DESCRIPTION:A man-shaped creature made of iron.]
-	[NAME:iron man:iron men:iron man]
+	[NAME:homme de fer:hommes de fer:homme de fer]
 	[CASTE_NAME:iron man:iron men:iron man]
 	[CREATURE_TILE:'M'][COLOR:0:0:1]
 	[LARGE_ROAMING]
@@ -1898,7 +1898,7 @@ creature_subterranean
 
 [CREATURE:ELEMENTMAN_MUD]
 	[DESCRIPTION:A humanoid made of mud which lives near water underground.]
-	[NAME:mud man:mud men:mud man]
+	[NAME:homme de boue:hommes de boue:homme de boue]
 	[CASTE_NAME:mud man:mud men:mud man]
 	[CREATURE_TILE:'M'][COLOR:6:0:0]
 	[LARGE_ROAMING]
@@ -2193,7 +2193,7 @@ creature_subterranean
 
 [CREATURE:AMPHIBIAN_MAN]
 	[DESCRIPTION:These evil creatures resemble walking frogs with arms and the intelligence to use them.  They live in the waters far under the earth.]
-	[NAME:amphibian man:amphibian men:amphibian man]
+	[NAME:homme ver:hommes vers:homme ver]
 	[LARGE_ROAMING]
 	[BIOME:SUBTERRANEAN_WATER]
 	[UNDERGROUND_DEPTH:1:3]
@@ -2771,3 +2771,4 @@ creature_subterranean
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
+
